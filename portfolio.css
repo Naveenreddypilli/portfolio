@@ -1,0 +1,130 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('C:\Users\armag\Documents\HTML\Poppins-Regular.ttf');
+}
+#navbar{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    width:80%;
+    height: 10%;
+}
+
+#main{
+    display:flex;
+    flex-direction:row;
+    background: #F5F5F5;
+    font-family: 'Poppins';
+}
+#lpulogo{
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-start;
+    height: 50px;
+    width:50x;
+    
+}
+#collegename{
+    color: #444BAB;
+}
+
+#lpulogo{
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+
+}
+#profile{
+    display:flex;
+    flex-direction: row-reverse;
+    height: 40px;
+    width: 40px;
+}
+
+
+#photo{
+    display:flex;
+    flex-direction: column;
+    align-self:center;
+    justify-content:center ;
+    height: 100px;
+    width: 100px;
+    
+}
+#photo{
+    background: #FFFFFF;
+    margin-top: 30px;
+    padding: 21px;
+}
+#about{
+    background: #FFFFFF;
+    margin-top: 30px;
+    padding: 21px;
+}
+
+
+#left{
+    display:flex;
+    flex-direction:column;
+    width: 25%;
+    height: 75%;
+    background: #FFFFFF;
+    margin: 40px;
+    padding: 20px;
+}
+
+#right{
+    display:flex;
+    flex-direction:column;
+    width: 64%;
+    height: 100%;
+    margin:40px;
+}
+
+#education{
+    background: #FFFFFF;
+    padding: 20px;
+    height:277px;
+}
+
+#work-experience{
+    background: #FFFFFF;
+    padding: 21px;
+    height:731px;
+    margin-top: 30px;
+}
+
+#description{
+    width:763px ;
+    padding:3px;     
+}
+
+#projects{
+    background: #FFFFFF;
+    padding: 20px;
+    height:382px;
+    margin-top: 30px;
+}
+
+#about-projects{
+    display:flex;
+    width:1116px;
+    font-weight: 400;
+    size: 20px;
+    line-height: 30px;
+    letter-spacing: 2%;
+    padding:3;
+}
+
+#frameworks{
+    background: #FFFFFF;
+    margin-top: 30px;
+    padding: 21px;
+}
+
+#achievements{
+    background: #FFFFFF;
+    margin-top: 30px;
+    padding: 21px;
+}
